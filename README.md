@@ -9,6 +9,8 @@
 </p>
 
 
+This codebase builds on [roxie62/neural_operators_for_chaos](https://github.com/roxie62/neural_operators_for_chaos). We thank the authors for open-sourcing their implementation.
+
 ## Installation:
 
 ```bash
