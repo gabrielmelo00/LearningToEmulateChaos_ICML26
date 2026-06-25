@@ -1,0 +1,29 @@
+[project]
+name = "dynsysot"
+version = "0.1.0"
+description = "Neural operators trained to preserve invariant measures of chaotic attractors (NeurIPS 2023)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "geomloss>=0.2.6",
+    "matplotlib>=3.7.0",
+    "numpy>=1.26.0",
+    "pillow>=10.0.0",
+    "pykeops>=2.3",
+    "scikit-learn>=1.3",
+    "scipy>=1.11.0",
+    "torch==2.1.2",
+    "torchvision==0.16.2",
+    "tqdm>=4.64.1",
+    "wandb>=0.15.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu118"
+# Change cu118 to match your CUDA version (e.g. cu121, cu124, cpu)
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu118" }
+torchvision = { index = "pytorch-cu118" }

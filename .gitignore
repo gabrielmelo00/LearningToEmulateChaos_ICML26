@@ -1,0 +1,38 @@
+# Virtual environments
+/venv/
+/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (generate locally — keep generation scripts, ignore data)
+/l96_data_x/F_*/
+/l63_data_x/l63_data_train/
+/l63_data_x/l63_data_val/
+/l63_data_x/l63_data_test/
+/ks_data_x/*.pth
+/ks_data_x/*.npy
+/ks_data_x_single_traj/*.pth
+/ks_data_x_single_traj/*.npy
+/ks_data_x_single_traj/ks_single_traj_train/
+/ks_data_x_single_traj/ks_single_traj_val/
+/ks_data_x_single_traj/ks_single_traj_test/
+npy_l96/
+
+# Output / experiment results
+output_folder/
+l63_output_folder/
+l63_output_folder_new/
+l63_output_folder_ckpt_eval/
+/saved_checkpoints/
+
+# Logs and job output
+logs/
+jobs/*.log
+jobs/*.err
+
+# macOS
+.DS_Store
