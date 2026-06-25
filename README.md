@@ -6,7 +6,7 @@
 </p>
 
 Supported systems: **Lorenz 96 (L96)** — see branches `l63`, `ks`, `kolmogorov-2d` for other experiments.  
-Supported training objectives: **Optimal Transport (OT / Sinkhorn)**, **WGAN**, **baseline (L2)**.
+Supported training objectives: **Fixed Optimal Transport**, **Learnable OT - Sinkhorn**, **Learnable OT - WGAN**, **baseline (L2)**.
 
 ---
 
@@ -49,13 +49,6 @@ bash experiments/OT_l96/srun.sh
 ```
 Key hyperparameters: `--lambda_geomloss 3`, `--blur 0.02`, `--with_geomloss_kd 0`.
 
-**Contrastive Learning**
-```bash
-bash experiments/CL_l96/srun.sh
-```
-Key hyperparameters: `--bank_size 1000`, `--T_metricL_traj_alone 0.3`.
-
-For single-GPU development change `--nproc_per_node` to `1` in the shell script.
 
 ### 4 — Evaluate
 
