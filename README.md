@@ -150,16 +150,3 @@ This codebase builds on [roxie62/neural_operators_for_chaos](https://github.com/
   year={2026}
 }
 ```
-
-## Acknowledgements
-This codebase builds on [roxie62/neural_operators_for_chaos](https://github.com/roxie62/neural_operators_for_chaos). We thank the authors for open-sourcing their implementation.
-
-## Recommended Citation
-```bibtex
-@article{melo2026learning,
-  title={Learning to Emulate Chaos: Adversarial Optimal Transport Regularization},
-  author={Melo, Gabriel and Santiago, Leonardo and Lu, Peter Y},
-  journal={arXiv preprint arXiv:2604.21097},
-  year={2026}
-}
-```
